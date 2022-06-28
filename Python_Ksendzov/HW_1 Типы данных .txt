@@ -1,0 +1,51 @@
+Python HW_1
+
+
+1) Создать переменную типа String
+2) Создать переменную типа Integer
+3) Создать переменную типа Float
+4) Создать переменную типа Bytes
+5) Создать переменную типа List
+6) Создать переменную типа Tuple
+7) Создать переменную типа Set
+8) Создать переменную типа Frozen set
+9) Создать переменную типа Dict
+10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
+
+	a = 'Vera'
+	b = 35
+	c = 3.5
+	d = bytes(31)
+	e = [a, b, c]
+	f = set('Vera')
+	g = frozenset("Vera")
+	h = {
+    	"Name": "Vera",
+    	"age": 35
+    	}
+
+	print("type:", type(a), a)
+	print("type:", type(b), b)
+	print("type:", type(c), c)
+	print("type:", type(d), d)
+	print("type:", type(e), e)
+	print("type:", type(f), f)
+	print("type:", type(g), g)
+	print("type:", type(h), h)
+
+11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
+
+	a = "Hello "
+	b = "world"
+	c = a + b
+	print(c)
+
+12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+	a = "Vera"
+	b = 18
+	print(a, b)
+
+13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
+	a = "Vera "
+	b = 18
+	print(a + str(b))
